@@ -1,0 +1,86 @@
+{
+  "version": "1.0.0",
+  "bot_name": "SHIV YOGI ASSISTANT",
+  "default_language": "en",
+  "languages_supported": ["en", "hi"],
+  "features": {
+    "welcome_system": true,
+    "repeat_replies": true,
+    "contact_button": true,
+    "channel_management": true,
+    "group_management": true,
+    "admin_system": true,
+    "temp_managers": true,
+    "anti_spam": true,
+    "link_filter": false,
+    "word_filter": false,
+    "notifications": true,
+    "statistics": true,
+    "maintenance_mode": false
+  },
+  "settings": {
+    "owner_name": "Shiv Yogi",
+    "contact_username": "shiv_yogi",
+    "wallpaper_channel_url": "https://t.me/shiv_yogi_wallpapers",
+    "discussion_group_url": "https://t.me/shiv_yogi_discussion",
+    "channel_id": "",
+    "group_id": "",
+    "repeat_cooldown_seconds": 60,
+    "timezone": "Asia/Kolkata",
+    "banned_words": [
+      "spam",
+      "free crypto",
+      "t.me/joinchat",
+      "scam",
+      "earn money fast"
+    ],
+    "anti_flood_threshold": 5,
+    "anti_flood_window_seconds": 5
+  },
+  "messages": {
+    "en": {
+      "welcome": "꧁༺ 𝑾𝑬𝑳𝑪𝑶𝑴𝑬 ༻꧂\n𓆩👑𓆪 𝑺𝑯𝑰𝑽 𝒀𝑶𝑮𝑰 𓆩👑𓆪\n\nWelcome to <b>Shiv Yogi Assistant</b>!\nA place for helpful assistance and useful updates.\nExplore our wallpaper collection and stay connected.\n\n༺ 𝑪𝒓𝒆𝒂𝒕𝒆𝒅 𝑩𝒚 𝑺𝒉𝒊𝒗 𝒀𝒐𝒈𝒊 ༻",
+      "repeat": "꧁༺ 𝑻𝑯𝑨𝑵𝑲 𝒀𝑶𝑼 ༻꧂\n\nFor assistance or enquiries, please contact the Owner.",
+      "contact": "✨ <b>Shiv Yogi Support & Enquiries</b>\n\nFeel free to reach out directly to the Owner for assistance or inquiries.",
+      "help": "📖 <b>Shiv Yogi Assistant - Help Guide</b>\n\n• /start - Start the bot & welcome menu\n• /help - Display this assistance message\n• /contact - Contact the Owner / Support\n• /language - Change bot language\n• /panel - Owner Control Panel (Owner only)\n\n<i>Group Commands:</i>\n• /rules - View group rules\n• /report - Report an issue to group admins",
+      "about": "ℹ️ <b>About Shiv Yogi Assistant</b>\n\nOfficial assistant bot for Shiv Yogi community and wallpaper channel.\n\n👑 <b>Owner:</b> Shiv Yogi\n⚡ <b>Engine:</b> Cloudflare Workers & Telegram Bot API\n🛡 <b>Security:</b> Full Token & Webhook Verification",
+      "maintenance": "🛠 <b>Under Scheduled Maintenance</b>\n\nShiv Yogi Assistant is currently undergoing scheduled maintenance. Please check back shortly!",
+      "channel_join_invite": "🎉 <b>Welcome to our Wallpaper Channel!</b>\n\nJoin our Discussion Group to connect with the community, request wallpapers, and share feedback!",
+      "group_welcome": "👋 Welcome to the discussion group, <b>{NAME}</b>! Please follow the community rules and enjoy your stay.",
+      "group_goodbye": "👋 Goodbye <b>{NAME}</b>, thank you for being part of our community!",
+      "group_rules": "📜 <b>Group Rules & Guidelines:</b>\n\n1. Be respectful to all members.\n2. No spam, unauthorized promotional links, or self-promotion.\n3. Keep discussions polite and relevant.\n4. Admin decisions are final.",
+      "link_filter_warning": "⚠️ <b>Warning:</b> Links are prohibited in this group, {NAME}!",
+      "word_filter_warning": "⚠️ <b>Warning:</b> Restricted words or profanity are not allowed, {NAME}!"
+    },
+    "hi": {
+      "welcome": "꧁༺ स्वागतम् ༻꧂\n𓆩👑𓆪 शिव योगी 𓆩👑𓆪\n\n<b>शिव योगी असिस्टेंट</b> में आपका हार्दिक स्वागत है!\nसहायता और उपयोगी अपडेट के लिए आपका विश्वसनीय साथी।\nहमारे वॉलपेपर संग्रह को देखें और जुड़े रहें।\n\n༺ निर्मित: शिव योगी ༻",
+      "repeat": "꧁༺ धन्यवाद ༻꧂\n\nसहायता या पूछताछ के लिए कृपया सीधे ऑनर से संपर्क करें।",
+      "contact": "✨ <b>शिव योगी सहायता एवं पूछताछ</b>\n\nकिसी भी सहायता या जानकारी के लिए नीचे दिए गए बटन से सीधे ऑनर से संपर्क करें।",
+      "help": "📖 <b>शिव योगी असिस्टेंट - सहायता मार्गदर्शिका</b>\n\n• /start - बॉट शुरू करें और स्वागत मेनू देखें\n• /help - यह सहायता संदेश देखें\n• /contact - ऑनर से संपर्क करें\n• /language - भाषा बदलें\n• /panel - ऑनर कंट्रोल पैनल (केवल ऑनर)\n\n<i>ग्रुप कमांड्स:</i>\n• /rules - ग्रुप के नियम देखें\n• /report - एडमिन को रिपोर्ट करें",
+      "about": "ℹ️ <b>शिव योगी असिस्टेंट के बारे में</b>\n\nशिव योगी कम्युनिटी और वॉलपेपर चैनल का आधिकारिक असिस्टेंट बॉट।\n\n👑 <b>ऑनर:</b> शिव योगी\n⚡ <b>इंजन:</b> क्लाउडफ्लेयर वर्कर्स एवं टेलीग्राम बॉट एपीआई\n🛡 <b>सुरक्षा:</b> सुरक्षित टोकन और वेबहुक वेरिफिकेशन",
+      "maintenance": "🛠 <b>रखरखाव जारी है</b>\n\nशिव योगी असिस्टेंट पर वर्तमान में निर्धारित रखरखाव कार्य चल रहा है। कृपया कुछ समय बाद पुनः प्रयास करें!",
+      "channel_join_invite": "🎉 <b>वॉलपेपर चैनल में आपका स्वागत है!</b>\n\nकम्युनिटी से जुड़ने, नए वॉलपेपर का अनुरोध करने और बातचीत के लिए हमारे डिस्कशन ग्रुप में शामिल हों!",
+      "group_welcome": "👋 डिस्कशन ग्रुप में आपका स्वागत है, <b>{NAME}</b>! कृपया नियमों का पालन करें।",
+      "group_goodbye": "👋 अलविदा <b>{NAME}</b>, हमारे साथ जुड़ने के लिए धन्यवाद!",
+      "group_rules": "📜 <b>ग्रुप के नियम एवं दिशानिर्देश:</b>\n\n1. सभी सदस्यों का सम्मान करें।\n2. स्पैम, अनधिकृत लिंक या प्रचार की सख्त मनाही है।\n3. बातचीत शालीन और प्रासंगिक रखें।\n4. एडमिन के निर्देशों का पालन करें।",
+      "link_filter_warning": "⚠️ <b>चेतावनी:</b> इस ग्रुप में लिंक भेजना प्रतिबंधित है, {NAME}!",
+      "word_filter_warning": "⚠️ <b>चेतावनी:</b> अनुचित शब्द या प्रतिबंधित शब्दावली की अनुमति नहीं है, {NAME}!"
+    }
+  },
+  "buttons": {
+    "en": {
+      "wallpaper_channel": "🖼 Wallpaper Channel",
+      "discussion_group": "💬 Discussion Group",
+      "contact_owner": "✉ Contact Us",
+      "help": "📖 Help",
+      "change_language": "🌐 Language"
+    },
+    "hi": {
+      "wallpaper_channel": "🖼 वॉलपेपर चैनल",
+      "discussion_group": "💬 डिस्कशन ग्रुप",
+      "contact_owner": "✉ संपर्क करें",
+      "help": "📖 सहायता",
+      "change_language": "🌐 भाषा बदलें"
+    }
+  }
+}
