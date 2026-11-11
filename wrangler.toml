@@ -8,7 +8,7 @@ GITHUB_CONTENT_URL = "https://raw.githubusercontent.com/shiv-yogi19/SHIV-YOGI-AS
 
 [[kv_namespaces]]
 binding = "BOT_DATA"
-id = "YOUR_KV_NAMESPACE_ID"
+id = "55e587063e784c8192292da4f653c7c1"
 
 # Cron trigger for scheduled posts and automated tasks (runs every minute)
 [triggers]
