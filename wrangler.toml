@@ -1,0 +1,15 @@
+name = "shiv-yogi-assistant"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+OWNER_ID = "8226363418"
+GITHUB_CONTENT_URL = "https://raw.githubusercontent.com/shiv-yogi19/SHIV-YOGI-ASSISTANT/main/content.json"
+
+[[kv_namespaces]]
+binding = "BOT_DATA"
+id = "YOUR_KV_NAMESPACE_ID"
+
+# Cron trigger for scheduled posts and automated tasks (runs every minute)
+[triggers]
+crons = ["* * * * *"]

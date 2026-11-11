@@ -1,0 +1,13 @@
+{
+  "name": "shiv-yogi-assistant",
+  "version": "2.0.0",
+  "description": "Advanced Telegram Channel and Community Management Bot on Cloudflare Workers",
+  "type": "module",
+  "main": "worker.js",
+  "scripts": {
+    "test": "node test/audit.test.js && node test/integration.test.js",
+    "check": "node --check worker.js modules/*.js"
+  },
+  "author": "Shiv Yogi",
+  "license": "MIT"
+}

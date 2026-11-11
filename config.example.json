@@ -1,0 +1,18 @@
+{
+  "COMMENT": "Do NOT put real tokens here. Use Cloudflare Secrets for BOT_TOKEN and WEBHOOK_SECRET.",
+  "secrets": {
+    "BOT_TOKEN": "123456789:ABCdefGHIjklMNOpqrsTUVwxyz",
+    "WEBHOOK_SECRET": "YourStrongRandomSecretToken_987654321"
+  },
+  "vars": {
+    "OWNER_ID": "8226363418",
+    "GITHUB_CONTENT_URL": "https://raw.githubusercontent.com/shiv-yogi19/SHIV-YOGI-ASSISTANT/main/content.json"
+  },
+  "kv": {
+    "binding": "BOT_DATA",
+    "namespace": "BOT_DATA"
+  },
+  "cron": {
+    "schedule": "* * * * *"
+  }
+}
