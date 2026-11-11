@@ -81,16 +81,50 @@ globalThis.fetch = async (url, options = {}) => {
     };
   }
 
-  // Simulate Telegram standard success for sendMessage, editMessageText, etc.
+JavaScript
+
+  // Simulate Telegram API responses with explicit method handling
+  const method = urlStr.split("/").pop();
+
+  const successMethods = [
+    "sendMessage",
+    "editMessageText",
+    "deleteMessage",
+    "answerCallbackQuery",
+    "pinChatMessage",
+    "unpinChatMessage",
+    "sendPhoto",
+    "sendVideo",
+    "sendDocument",
+    "restrictChatMember",
+    "banChatMember",
+    "unbanChatMember",
+    "setChatPermissions",
+    "setWebhook"
+  ];
+
+  if (successMethods.includes(method)) {
+    return {
+      ok: true,
+      json: async () => ({
+        ok: true,
+        result: {
+          message_id: 12345,
+          date: Math.floor(Date.now() / 1000)
+        }
+      })
+    };
+  }
+
+  // Unknown methods should not silently pass
   return {
     ok: true,
     json: async () => ({
-      ok: true,
-      result: { message_id: 12345, date: Math.floor(Date.now() / 1000) }
+      ok: false,
+      error_code: 404,
+      description: `Mock does not support Telegram method: ${method}`
     })
   };
-};
-
 // 3. Setup Test Environment
 const mockEnv = {
   BOT_TOKEN: "MOCK_TOKEN_123456",
