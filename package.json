@@ -1,0 +1,13 @@
+{
+  "name": "shiv-yogi-assistant",
+  "version": "3.0.0",
+  "description": "Production-Ready Telegram Channel & Community Management Assistant on Cloudflare Workers",
+  "type": "module",
+  "main": "worker.js",
+  "scripts": {
+    "test": "node test/audit.test.js && node test/integration.test.js && node test/security.test.js && node test/moderation.test.js && node test/scheduling.test.js && node test/storage.test.js",
+    "check": "node scripts/check-syntax.js"
+  },
+  "author": "Shiv Yogi",
+  "license": "MIT"
+}
